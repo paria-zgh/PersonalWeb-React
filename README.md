@@ -1,74 +1,36 @@
-<<<<<<< HEAD
-# PersonalWeb-React
-=======
-# Getting Started with Create React App
+# Personal Web Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple personal web application built with React. It includes multiple components displayed in a carousel-style layout. The project features smooth navigation with a Bootstrap navbar and uses React Router for seamless routing between components.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Single-page Application**: The entire website is built on a single page with multiple components that are displayed based on user interaction.
+- **Carousel Layout**: The components are styled in a carousel layout for a smooth, dynamic user experience.
+- **Navbar**: The navbar, built using Bootstrap, includes links to sections such as **Home**, **About**, **Skills**, and **Contact**. Clicking on any of these links smoothly navigates to the respective component.
+- **Footer**: The footer includes links to social media platforms.
+- **Routing**: React Router is used for routing between different components within the page.
 
-### `npm start`
+## How to Use
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To run this project on your system, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository:
+   ```
+   git clone https://github.com/paria-zgh/PersonalWeb-React.git
 
-### `npm test`
+## project Structure
+App.js: The main component where routing is configured and different sections are rendered.
+Header.js: The header component containing the Bootstrap navbar for navigation.
+Footer.js: The footer component with social media links.
+About.js, Skills.js, Contact.js: The individual components corresponding to each section of the website.
+Carousel.js: The carousel-style layout component.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## libraries Used
 
-### `npm run build`
+React: The core library used for building the user interface.
+React Router: Used for navigation between different sections/components.
+Bootstrap: Used for styling the navbar and layout.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Additional Information
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> 9852829 (addPersonalWeb)
+This project is designed to showcase my personal skills and experience in web development with React. It demonstrates the use of React Router for smooth navigation and how to style components in a visually engaging carousel format.
